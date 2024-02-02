@@ -4,7 +4,7 @@ on:
 jobs:
   ci:
     name: CI
-    runs-on: buildjet-4vcpu-ubuntu-2204
+    runs-on: gitrunners-ubuntu-2204-x64-2vcpu
     container: ubuntu:23.10
     strategy:
       fail-fast: false
