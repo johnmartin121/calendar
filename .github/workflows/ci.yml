@@ -1,6 +1,6 @@
 name: CI
 on:
-  workflow_dispatch:
+  push:
 jobs:
   ci:
     name: CI
